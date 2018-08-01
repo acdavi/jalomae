@@ -1,0 +1,87 @@
+body{
+	background-image: url(../img/fundo.jpg);
+}@font-face{
+	font-family: titulo;
+	src:url(../font/game.ttf);
+}h1{
+	font-family: titulo;
+	size: 80px;
+	color: #fff;
+}
+#container{
+	background-color: #ff3b3b00;
+	width: 700px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}#title{
+	background-color: transparent;
+	text-align: center;
+	width: auto;
+	height: 50px;
+	color: white;
+}#backgroundGame{
+    background-image: url(../img/fundo_game.png);
+    width: auto;
+    height: 550px;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    position:relative;
+}#player{
+	background-image: url(../img/jogador1.png);
+	width: 100px;
+	height: 45px;
+	position:absolute;
+	left:30px;
+	top:222px;
+}#shoot{
+	background-image: url(../img/tiro.gif);
+	width: 50px;
+	height: 15px;
+	position:absolute;
+	left:140px;
+	top:250px;
+}#energy{
+	background-image: url(../img/energia_4.png);
+	width: 49px;
+	height: 60px;
+	position:absolute;
+	left:10px;
+	top:459px;
+}#enemy1{
+	background-image: url(../img/inimigo1.png);
+	width: 100px;
+	height: 45px;
+	position:absolute;
+	left:550px;
+	top:140px;
+}#enemy2{
+	background-image: url(../img/inimigo2.png);
+	width: 100px;
+	height: 45px;
+	position:absolute;
+	left:550px;
+	top:320px;
+}#explosion1{
+	background-image: url(../img/explosao.png);
+	width: 70px;
+	height: 40px;
+	position:absolute;
+	left:240px;
+	top:479px;
+}#explosion2{
+	background-image: url(../img/explosao.jpg);
+	width: 70px;
+	height: 40px;
+	position:absolute;
+	left:350px;
+	top:479px;
+}#scoreboard{
+	background-color: black;
+	width: 700px;
+	height: auto;
+	text-align: center;
+	color: white;
+}
